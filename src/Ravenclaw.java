@@ -43,4 +43,17 @@ public class Ravenclaw extends Hogwarts{
     public void setCreative(int creative) {
         this.creative = creative;
     }
+
+    @Override
+    public String toString() {
+        return "Ravenclaw{" +  "name='" + getName() + '\'' +
+                ", surname='" + getSurname() + '\'' +
+                ", spellPower=" + getSpellPower() +
+                ", transgression=" + getTransgression() +
+                ", smart=" + smart +
+                ", wise=" + wise +
+                ", wit=" + wit +
+                ", creative=" + creative +
+                '}';
+    }
 }

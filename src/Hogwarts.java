@@ -42,4 +42,5 @@ public abstract class Hogwarts {
     public void setTransgression(int transgression) {
         this.transgression = transgression;
     }
+
 }
