@@ -42,18 +42,4 @@ public class Gryffindor extends Hogwarts {
                 ", bravery=" + bravery +
                 '}';
     }
-
-   @Override
-    public int getIndAbyl() {
-        return nobility + honesty + bravery;
-    }
-    public void equalsGriffStud(Hogwarts students) {
-        if (this.getIndAbyl() > students.getIndAbyl()) {
-            System.out.println(this.getName() + " лучше, чем " + students.getName());
-        } else if (this.getIndAbyl() < students.getIndAbyl()) {
-            System.out.println(students.getName() + " лучше, чем " + this.getName());
-        } else if (this.getIndAbyl() == students.getIndAbyl()) {
-            System.out.println("Студенты " + students.getName() + " и " + this.getName() + " равны");
-        }
-    }
 }
