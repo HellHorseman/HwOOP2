@@ -44,49 +44,49 @@ public class Main {
         System.out.println();
     }
 
-    public static void equalsStudGryf() {
-        int stud1 = gryffindors[0].getNobility() + gryffindors[0].getHonesty() + gryffindors[0].getBravery();
-        int stud2 = gryffindors[2].getNobility() + gryffindors[2].getHonesty() + gryffindors[2].getBravery();
-        if (stud1 > stud2) {
-            System.out.println("Лучший гриффиндорец = " + gryffindors[0]);
-        } else {
-            System.out.println("Лучший гриффиндорец = " + gryffindors[2]);
-        }
-        System.out.println();
-    }
-
-    public static void equalsStudHuff() {
-        int stud1 = hufflepuffs[1].getFaithful() + hufflepuffs[1].getHonesty() + hufflepuffs[1].getHardworking();
-        int stud2 = hufflepuffs[0].getFaithful() + hufflepuffs[0].getHonesty() + hufflepuffs[0].getHardworking();
-        if (stud1 > stud2) {
-            System.out.println("Лучший пуффендеуц = " + hufflepuffs[1]);
-        } else {
-            System.out.println("Лучший пуффендуец = " + hufflepuffs[0]);
-        }
-        System.out.println();
-    }
-
-    public static void equalsStudRav() {
-        int stud1 = ravenclaws[1].getCreative() + ravenclaws[1].getWise() + ravenclaws[1].getWit() + ravenclaws[1].getSmart();
-        int stud2 = ravenclaws[2].getCreative() + ravenclaws[2].getWise() + ravenclaws[2].getWit() + ravenclaws[2].getSmart();
-        if (stud1 > stud2) {
-            System.out.println("Лучший когтевранец = " + ravenclaws[1]);
-        } else {
-            System.out.println("Лучший когтевранец = " + ravenclaws[2]);
-        }
-        System.out.println();
-    }
-
-    public static void equalsStudSly() {
-        int stud1 = slytherins[0].getAmbition() + slytherins[0].getIngenuity() + slytherins[0].getDetermination() + slytherins[0].getLustForPower() + slytherins[0].getTrick();
-        int stud2 = slytherins[2].getAmbition() + slytherins[2].getIngenuity() + slytherins[2].getDetermination() + slytherins[2].getLustForPower() + slytherins[2].getTrick();
-        if (stud1 > stud2) {
-            System.out.println("Лучший слизеринец = " + slytherins[0]);
-        } else {
-            System.out.println("Лучший слизеринец = " + slytherins[2]);
-        }
-        System.out.println();
-    }
+//    public static void equalsStudGryf() {
+//        int stud1 = gryffindors[0].getNobility() + gryffindors[0].getHonesty() + gryffindors[0].getBravery();
+//        int stud2 = gryffindors[2].getNobility() + gryffindors[2].getHonesty() + gryffindors[2].getBravery();
+//        if (stud1 > stud2) {
+//            System.out.println("Лучший гриффиндорец = " + gryffindors[0]);
+//        } else {
+//            System.out.println("Лучший гриффиндорец = " + gryffindors[2]);
+//        }
+//        System.out.println();
+//    }
+//
+//    public static void equalsStudHuff() {
+//        int stud1 = hufflepuffs[1].getFaithful() + hufflepuffs[1].getHonesty() + hufflepuffs[1].getHardworking();
+//        int stud2 = hufflepuffs[0].getFaithful() + hufflepuffs[0].getHonesty() + hufflepuffs[0].getHardworking();
+//        if (stud1 > stud2) {
+//            System.out.println("Лучший пуффендеуц = " + hufflepuffs[1]);
+//        } else {
+//            System.out.println("Лучший пуффендуец = " + hufflepuffs[0]);
+//        }
+//        System.out.println();
+//    }
+//
+//    public static void equalsStudRav() {
+//        int stud1 = ravenclaws[1].getCreative() + ravenclaws[1].getWise() + ravenclaws[1].getWit() + ravenclaws[1].getSmart();
+//        int stud2 = ravenclaws[2].getCreative() + ravenclaws[2].getWise() + ravenclaws[2].getWit() + ravenclaws[2].getSmart();
+//        if (stud1 > stud2) {
+//            System.out.println("Лучший когтевранец = " + ravenclaws[1]);
+//        } else {
+//            System.out.println("Лучший когтевранец = " + ravenclaws[2]);
+//        }
+//        System.out.println();
+//    }
+//
+//    public static void equalsStudSly() {
+//        int stud1 = slytherins[0].getAmbition() + slytherins[0].getIngenuity() + slytherins[0].getDetermination() + slytherins[0].getLustForPower() + slytherins[0].getTrick();
+//        int stud2 = slytherins[2].getAmbition() + slytherins[2].getIngenuity() + slytherins[2].getDetermination() + slytherins[2].getLustForPower() + slytherins[2].getTrick();
+//        if (stud1 > stud2) {
+//            System.out.println("Лучший слизеринец = " + slytherins[0]);
+//        } else {
+//            System.out.println("Лучший слизеринец = " + slytherins[2]);
+//        }
+//        System.out.println();
+//    }
 
     public static void equalsTwoStud() {
         int harry = gryffindors[0].getSpellPower() + gryffindors[0].getTransgression();

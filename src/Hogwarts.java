@@ -50,4 +50,6 @@ public abstract class Hogwarts {
                 ", spellPower=" + spellPower +
                 ", transgression=" + transgression;
     }
+
+    public abstract int getIndAbyl();
 }

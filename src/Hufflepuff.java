@@ -42,4 +42,17 @@ public class Hufflepuff extends Hogwarts{
                 ", honesty=" + honesty +
                 '}';
     }
+    @Override
+    public int getIndAbyl() {
+        return hardworking + honesty + faithful;
+    }
+    public void equalsHuffStud(Hogwarts students) {
+        if (this.getIndAbyl() > students.getIndAbyl()) {
+            System.out.println(this.getName() + " лучше, чем " + students.getName());
+        } else if (this.getIndAbyl() < students.getIndAbyl()) {
+            System.out.println(students.getName() + " лучше, чем " + this.getName());
+        } else if (this.getIndAbyl() == students.getIndAbyl()) {
+            System.out.println("Студенты " + students.getName() + " и " + this.getName() + " равны");
+        }
+    }
 }

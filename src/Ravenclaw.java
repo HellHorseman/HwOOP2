@@ -53,4 +53,17 @@ public class Ravenclaw extends Hogwarts{
                 ", creative=" + creative +
                 '}';
     }
+    @Override
+    public int getIndAbyl() {
+        return smart + wit + wise + creative;
+    }
+    public void equalsRavStud(Hogwarts students) {
+        if (this.getIndAbyl() > students.getIndAbyl()) {
+            System.out.println(this.getName() + " лучше, чем " + students.getName());
+        } else if (this.getIndAbyl() < students.getIndAbyl()) {
+            System.out.println(students.getName() + " лучше, чем " + this.getName());
+        } else if (this.getIndAbyl() == students.getIndAbyl()) {
+            System.out.println("Студенты " + students.getName() + " и " + this.getName() + " равны");
+        }
+    }
 }
