@@ -1,8 +1,8 @@
 public abstract class Hogwarts {
     private String name;
     private String surname;
-     private int spellPower;
-     private int transgression;
+    private int spellPower;
+    private int transgression;
 
     public Hogwarts(String name, String surname, int spellPower, int transgression) {
         this.name = name;
@@ -43,4 +43,11 @@ public abstract class Hogwarts {
         this.transgression = transgression;
     }
 
+    @Override
+    public String toString() {
+        return  "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", spellPower=" + spellPower +
+                ", transgression=" + transgression;
+    }
 }

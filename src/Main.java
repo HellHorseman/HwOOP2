@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Main {
     static Gryffindor[] gryffindors = new Gryffindor[]{
             new Gryffindor("Гарри", "Поттер", 60, 45, 70, 62, 81),
@@ -23,11 +21,12 @@ public class Main {
     };
 
     public static void main(String[] args) {
-       printStudents();
-       equalsStudGryf();
-equalsStudHuff();
-equalsStudRav();
-equalsStudSly();
+        printStudents();
+        equalsStudGryf();
+        equalsStudHuff();
+        equalsStudRav();
+        equalsStudSly();
+        equalsTwoStud();
     }
 
     public static void printStudents() {
@@ -44,6 +43,7 @@ equalsStudSly();
         }
         System.out.println();
     }
+
     public static void equalsStudGryf() {
         int stud1 = gryffindors[0].getNobility() + gryffindors[0].getHonesty() + gryffindors[0].getBravery();
         int stud2 = gryffindors[2].getNobility() + gryffindors[2].getHonesty() + gryffindors[2].getBravery();
@@ -84,6 +84,17 @@ equalsStudSly();
             System.out.println("Лучший слизеринец = " + slytherins[0]);
         } else {
             System.out.println("Лучший слизеринец = " + slytherins[2]);
+        }
+        System.out.println();
+    }
+
+    public static void equalsTwoStud() {
+        int harry = gryffindors[0].getSpellPower() + gryffindors[0].getTransgression();
+        int draco = slytherins[0].getSpellPower() + slytherins[0].getTransgression();
+        if (harry > draco) {
+            System.out.println("Лучший студент = " + gryffindors[0]);
+        } else {
+            System.out.println("Лучший студент = " + slytherins[0]);
         }
         System.out.println();
     }
